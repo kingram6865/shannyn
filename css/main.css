@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  display: flex;
+  /* align-self: center; */
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* h1, menu {
+  align-content: center;
+} */
+
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0 15;
+}
+
+.fivecs, .processsteps {
+  font-weight: 700;
+}
+
+.thefivecs {
+  font-weight: 700;
+  background-color: rgb(142, 178, 246);
+  color: rgb(55, 0, 253);
+}
+
+.nodefault {
+  list-style-type: none;
+}
+
+.optional {
+  background-color: yellow;
+}
+
+
+
+.menuitems li {
+  display: inline;
+}
+
